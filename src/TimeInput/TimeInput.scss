@@ -1,0 +1,47 @@
+.time-form-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    height: 146px;
+    margin: 15px 125px 90px 15px;
+}
+
+.divider-container {
+    display: flex;
+    justify-content: center;
+}
+
+.style-divider {
+    height: 2px;
+    width: calc(100% - 24px);
+    background-color: #E5E5E5;
+    align-self: center;
+}
+
+.hours-input {
+    width: 180px;
+    height: 30px;
+    font-family: 'proxima_novaregular';
+    border: #E5E5E5 1px solid;
+    border-radius: 2px;
+}
+
+label {
+    font-family: 'proxima_novaregular';
+
+}
+
+.submit-btn {
+    width: 68px;
+    height: 30px;
+    background-color: #2A5BD6;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    margin-left: 11px;
+}
+
+
+
+
