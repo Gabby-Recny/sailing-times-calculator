@@ -1,12 +1,14 @@
 import logo from './logo.svg';
-import './App.css';
+import './App.scss';
 import Header from './Header/Header';
+import TimeInput from './TimeInput/TimeInput';
 
 
 const App = () => {
   return (
     <>
       <Header/>
+      <TimeInput/>
     </>
   )
 }
