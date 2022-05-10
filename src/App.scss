@@ -2,3 +2,19 @@ body {
   background-color: #E5E5E5;
 }
 
+@font-face {
+  font-family: 'proxima_novaregular';
+  src: url('./fonts/ProximaNova-Regular.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+
+}
+  
+  @font-face {
+    font-family: 'proxima_novabold';
+    src: url('./fonts/ProximaNova-Bold.otf');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
