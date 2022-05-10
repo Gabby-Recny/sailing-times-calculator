@@ -1,30 +1,12 @@
 import React, { useState } from 'react';
 import './TimeInput.scss';
-import TimePicker from "rc-time-picker";
-import 'rc-time-picker/assets/index.css';
 
 const TimeInput = () => {
 
     const [ hours, setHours ] = useState()
     const [ minutes, setMinutes ] = useState()
     const [ meridiem, setMeridiem ] = useState()
-    const [ time, setTime ] = useState('');
     const [ days, setDays ] = useState()
-
-    // return (
-    //     <section>
-    //       <br />
-    //       <p>Selected Time: {time || '-'}</p>
-    //       <TimePicker
-    //         placeholder="Select Time"
-    //         use12Hours
-    //         showSecond={false}
-    //         focusOnOpen={true}
-    //         format="hh:mm A"
-    //         onChange={e => setTime(e.format('LT'))}
-    //       />
-    //     </section>
-    //   );
 
 
     return (
@@ -76,4 +58,8 @@ const TimeInput = () => {
                 </label> */
 
 export default TimeInput;
+
+
+
+
 
