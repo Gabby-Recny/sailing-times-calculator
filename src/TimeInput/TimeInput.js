@@ -30,7 +30,7 @@ const TimeInput = () => {
     return (
         <section>
             <form className='time-form-container'>
-                <label for='hour'>Race Time:</label>
+                <label htmlFor='hour'>Race Time:</label>
                 <section className='input-area'>
                     <input 
                         className='hours-input'
